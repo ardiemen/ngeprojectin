@@ -41,12 +41,13 @@
 
     <!-- IKLAN -->
 
-    <div class="bg-primary">
+    <div class=" fixed">
         <div class="container">
             <div class="row pt-2">
                 <div class="col-lg-12 col-sm-12">
                     <p class=" text-center text-light">
-                        Info: Mohon maaf saya lupa dengan infonya <a class="text-white" href="#"> LIhat di sini →</a>
+                        <!-- Info: Mohon maaf saya lupa dengan infonya <a class="text-white" href="#"> LIhat di sini →</a> -->
+                        <br><br>
                     </p>
                 </div>
             </div>
@@ -55,7 +56,7 @@
 
 
     <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top">
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand h1" href="index.html">
                 <i class='bx bx-buildings bx-sm text-dark'></i>
@@ -74,26 +75,45 @@
                         <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.html">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.html">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.html">Contact</a>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Program
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-xl-start rounded" aria-labelledby="navbarDropdown">
+                                <div class="card" style="border: none;">
+                                    <div class="card-body" style="max-width: 48rem; min-width: 24rem;">
+                                        <div class="row">
+                                            <!-- <div class="col-md-4 my-2">
+                                                <a class="text-decoration-none text-black fw-bold" href="#">Action</a>   
+                                            </div>
+                                            <div class="col-md-8 my-2">
+                                                <div class="row"> -->
+                                                    <div class="col-md-12">
+                                                        <a class="text-decoration-none text-black fw-bold" href="#">E-Book</a>
+                                                        <p>Gratis panduan digital.</p>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="col-md-12">
+                                                        <a class="text-decoration-none text-black fw-bold" href="#">Freelance</a>
+                                                        <p>Berita & Tips dari Ngeprojectin.</p>
+                                                    </div>
+                                                <!-- </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link btn-outline-primary rounded-pill px-3 dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
+                                Services
                             </a>
-                            <ul class="dropdown-menu dropdown-menu-xl-end rounded" aria-labelledby="navbarDropdown">
+                            <ul class="dropdown-menu dropdown-menu-xl-center rounded" aria-labelledby="navbarDropdown">
                                 <div class="card" style="border: none;">
-                                    <div class="card-body" style="max-width: 46rem; min-width: 23rem;">
+                                    <div class="card-body scroll" style="max-width: 46rem; min-width: 23rem;">
                                         <div class="row">
                                             <!-- <div class="col-md-4 my-2">
                                                 <a class="text-decoration-none text-black fw-bold" href="#">Action</a>   
@@ -131,6 +151,118 @@
                                                     <div class="col-md-6">
                                                         <a class="text-decoration-none text-black fw-bold" href="#">Ngefreelance</a>
                                                         <p>Lorem ipsum dolor sit amet.</p>
+                                                    </div>
+                                                <!-- </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Kerja Kami
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-xl-end rounded" aria-labelledby="navbarDropdown">
+                                <div class="card" style="border: none;">
+                                    <div class="card-body" style="max-width: 46rem; min-width: 20rem;">
+                                        <div class="row">
+                                            <!-- <div class="col-md-4 my-2">
+                                                <a class="text-decoration-none text-black fw-bold" href="#">Action</a>   
+                                            </div>
+                                            <div class="col-md-8 my-2">
+                                                <div class="row"> -->
+                                                    
+                                                    
+                                                    <div class="col-md-12">
+                                                        <a class="text-decoration-none text-black fw-bold" href="about.html">About</a>
+                                                        <p>Cerita tentang kita.</p>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="col-md-12">
+                                                        <a class="text-decoration-none text-black fw-bold" href="pricing.html">Paket Harga</a>
+                                                        <p>Lorem ipsum dolor sit amet.</p>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="col-md-12">
+                                                        <a class="text-decoration-none text-black fw-bold" href="work.html">Portofolio</a>
+                                                        <p>Lorem ipsum dolor sit amet.</p>
+                                                    </div>
+                                                <!-- </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Bantuan
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-xl-end rounded" aria-labelledby="navbarDropdown">
+                                <div class="card" style="border: none;">
+                                    <div class="card-body scroll" style="max-width: 48rem; min-width: 24rem;">
+                                        <div class="row">
+                                            <!-- <div class="col-md-4 my-2">
+                                                <a class="text-decoration-none text-black fw-bold" href="#">Action</a>   
+                                            </div>
+                                            <div class="col-md-8 my-2">
+                                                <div class="row"> -->
+                                                    <div class="col-lg-12 col">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <img src="./assets/img/banner-img-02.svg" height="70px" width="70px">
+    
+                                                                
+                                                                </div>
+                                                                <div class="col-lg-9">
+                                                                    <a class="text-decoration-none text-black fw-bold" href="#">Customer Service</a>
+                                                                    <p>Layanan bantuan dan saran.</p>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div> 
+                                                    <hr>
+                                                    
+
+                                                    <div class="col-lg-12 col">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <img src="./assets/img/banner-img-02.svg" height="70px" width="70px">
+    
+                                                                
+                                                                </div>
+                                                                <div class="col-lg-9">
+                                                                    <a class="text-decoration-none text-black fw-bold" href="#">Affilates Program</a>
+                                                                    <p>Program Affiliates untuk pelanggan.</p>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>  
+
+
+                                                    <hr>
+                                                    <div class="col-md-12">
+                                                        <a class="text-decoration-none text-black fw-bold" href="#">Blog</a>
+                                                        <p>Berita & Tips dari Ngeprojectin.</p>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="col-md-12">
+                                                        <a class="text-decoration-none text-black fw-bold" href="contact.html">Contact</a>
+                                                        <p>Hubungi kontak kami.</p>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="col-md-6">
+                                                        <a class="text-decoration-none text-black fw-bold" href="contact.html">Terbaru dari kami</a>
+                                                        <a class="text-decoration-none text-black" href="contact.html">Lihat promo</a>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <a class="text-decoration-none text-black fw-bold" href="contact.html">Butuh bantuan?</a>
+                                                        <a class="text-decoration-none text-black" href="contact.html">Hubungi kami</a>
                                                     </div>
                                                 <!-- </div>
                                             </div> -->

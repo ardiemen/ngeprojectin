@@ -405,3 +405,14 @@ Portfolio
 .btn-floating.facebook:hover {
   background-color: #1876f3;
 }
+
+
+/* SCROLL */
+
+div.scroll {
+  max-width: 48rem;
+  min-width: 24rem;
+  height: 400px;
+  width: 200px;
+  overflow-y: hidden;
+}
