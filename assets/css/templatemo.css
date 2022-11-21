@@ -414,5 +414,5 @@ div.scroll {
   min-width: 24rem;
   height: 400px;
   width: 200px;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
