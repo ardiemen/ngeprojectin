@@ -433,11 +433,16 @@
                 </p>
                 <div class="filter-btns shadow-md rounded-pill text-center col-auto">
                     <a class="banner btn rounded-pill btn-secondary text-light px-4 light-300 active all mt-2"
-                        data-filter=".ngeline" href="javascript:void(0)">All</a>
-                    <a class="banner btn rounded-pill btn-secondary text-light px-4 light-300 elearning mt-2"
-                        data-filter=".elearning" href="javascript:void(0)">E-Learning</a>
-                    <!-- <a class="banner btn rounded-pill btn-secondary text-light px-4 light-300 portofolio"
-                        data-filter=".portofolio" href="javascript:void(0)">Portofolio</a> -->
+                        data-filter=".ngeline" href="javascript:void(0)">Layanan</a>
+                    <a class="banner btn rounded-pill btn-secondary text-light px-4 light-300 portofolio mt-2"
+                        data-filter=".portofolio" href="javascript:void(0)">Portofolio</a>
+                    <!-- <a class="banner btn rounded-pill btn-secondary text-light px-4 light-300 elearning mt-2"
+                        data-filter=".elearning" href="javascript:void(0)">E-Learning</a> -->
+                    <a class="banner btn rounded-pill btn-secondary text-light px-4 light-300 website mt-2"
+                        data-filter=".website" href="../program/e-learning.html">E-Learning</a>
+                    
+                    <!-- <a class="banner btn rounded-pill btn-secondary text-light px-4 light-300 website mt-2"
+                        data-filter=".website" href="../kerja-kami/portofolio.html">Portofolio</a> -->
                     <a class="banner btn rounded-pill btn-secondary text-light px-4 light-300 website mt-2"
                         data-filter=".website" href="https://ngeline.github.io">Website</a>
                 </div>
@@ -451,21 +456,57 @@
     <section class="container  py-5 ">
         <div class="row justify-content-center my-5">
             <div class="filter-btns shadow-md rounded-pill text-center col-auto">
-                <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4 active" data-filter=".project" href="javascript:void(0)">All</a>
-                <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".landingpage" href="javascript:void(0)">Profile & Landing Page</a>
-                <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".perusahaan" href="javascript:void(0)">Institusi & Perusahaan</a>
-                <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".tokoonline" href="javascript:void(0)">Toko Online</a>
-                <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".booking" href="javascript:void(0)">Booking Service / Travel</a>
-                <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".custom" href="javascript:void(0)">Custom</a>
+                <div class="section_ngeline">
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4 active"
+                        data-filter=".ngeline_all" href="javascript:void(0)">All</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".ngeline_profile_landingpage" href="javascript:void(0)">Profile & Landing Page</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".ngeline_institusi_perusahaan" href="javascript:void(0)">Institusi & Perusahaan</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".ngeline_toko_online" href="javascript:void(0)">Toko Online</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".ngeline_booking_service" href="javascript:void(0)">Booking Service / Travel</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".ngeline_custom" href="javascript:void(0)">Custom</a>
+                </div>
+                <div class="section_elearning" style="display: none;">
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4 active"
+                        data-filter=".elearning_all" href="javascript:void(0)">All</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".elearning_business" href="javascript:void(0)">Business</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".elearning_digital_ads" href="javascript:void(0)">Digital Ads</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".elearning_marketing" href="javascript:void(0)">Marketing</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".elearning_social" href="javascript:void(0)">Social Media</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".elearning_graphic" href="javascript:void(0)">Graphic</a>
+                </div>
+                <div class="section_portofolio" style="display: none;">
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4 active"
+                        data-filter=".portofolio_all" href="javascript:void(0)">All</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".portofolio_profile_landingpage" href="javascript:void(0)">Profile & Landing Page</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".portofolio_institusi_perusahaan" href="javascript:void(0)">Institusi & Perusahaan</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".portofolio_toko_online" href="javascript:void(0)">Toko Online</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".portofolio_booking_service" href="javascript:void(0)">Booking Service / Travel</a>
+                    <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4"
+                        data-filter=".portofolio_custom" href="javascript:void(0)">Custom</a>
+                </div>
             </div>
         </div>
 
 
         <div class="row projects gx-lg-5">
 
-            <a href="work-single.html"  class="col-sm-6 col-lg-4 text-decoration-none project ngeline landingpage">
+            <a href="work-single.html"  class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_profile_landingpage">
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="../../assets/img/fbads.png" alt="...">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
                     <div class="card-body">
                         <h5 class="card-title light-300 fw-bold text-dark">Landing Page 1</h5>
                         <p class="card-text light-300 text-dark">
@@ -477,9 +518,9 @@
                     </div>
                 </div>
             </a>
-            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none project ngeline landingpage">
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_profile_landingpage">
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="../../assets/img/igads.png" alt="...">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
                     <div class="card-body">
                         <h5 class="card-title light-300 fw-bold text-dark">Landing Page 2</h5>
                         <p class="card-text light-300 text-dark">
@@ -491,9 +532,9 @@
                     </div>
                 </div>
             </a>
-            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none project ngeline landingpage">
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_profile_landingpage">
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="../../assets/img/gglads.png" alt="...">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
                     <div class="card-body">
                         <h5 class="card-title light-300 fw-bold text-dark">Landing Page 3</h5>
                         <p class="card-text light-300 text-dark">
@@ -505,9 +546,9 @@
                     </div>
                 </div>
             </a>
-            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none project ngeline perusahaan">
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_institusi_perusahaan">
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="../../assets/img/gglads.png" alt="...">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
                     <div class="card-body">
                         <h5 class="card-title light-300 fw-bold text-dark">Perusahaan</h5>
                         <p class="card-text light-300 text-dark">
@@ -519,9 +560,9 @@
                     </div>
                 </div>
             </a>
-            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none project ngeline tokoonline">
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_toko_online">
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="../../assets/img/gglads.png" alt="...">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
                     <div class="card-body">
                         <h5 class="card-title light-300 fw-bold text-dark">Toko Online</h5>
                         <p class="card-text light-300 text-dark">
@@ -533,11 +574,67 @@
                     </div>
                 </div>
             </a>
-            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none project ngeline booking">
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_toko_online">
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="../../assets/img/gglads.png" alt="...">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
                     <div class="card-body">
                         <h5 class="card-title light-300 fw-bold text-dark">Toko Online</h5>
+                        <p class="card-text light-300 text-dark">
+                            Google Ads adalah program periklanan online Google untuk menjangkau orang-orang tepat sesuai dengan bidang bisnis Anda.
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                              Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_booking_service">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Booking Service</h5>
+                        <p class="card-text light-300 text-dark">
+                            Google Ads adalah program periklanan online Google untuk menjangkau orang-orang tepat sesuai dengan bidang bisnis Anda.
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                              Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_custom">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Paket 1</h5>
+                        <p class="card-text light-300 text-dark">
+                            Google Ads adalah program periklanan online Google untuk menjangkau orang-orang tepat sesuai dengan bidang bisnis Anda.
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                              Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_custom">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Paket 2</h5>
+                        <p class="card-text light-300 text-dark">
+                            Google Ads adalah program periklanan online Google untuk menjangkau orang-orang tepat sesuai dengan bidang bisnis Anda.
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                              Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_custom">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Paket 3</h5>
                         <p class="card-text light-300 text-dark">
                             Google Ads adalah program periklanan online Google untuk menjangkau orang-orang tepat sesuai dengan bidang bisnis Anda.
                         </p>
@@ -697,7 +794,152 @@
                 </div>
             </a>
             <!-- end e-learning -->
-        </div>              
+        </div>
+        
+        <div class="row section_portofolio projects gx-lg-5" style="display: none;">
+            <!-- portofolio -->
+            <a href="work-single.html"  class="col-sm-6 col-lg-4 text-decoration-none portofolio project ngeline_all ngeline_profile_landingpage">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Landing Page 1</h5>
+                        <p class="card-text light-300 text-dark">
+                            Facebook Ads adalah sebuah situs layanan iklan Facebook yang akan membantu fan page atau website bisnis Anda. 
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                              Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_profile_landingpage">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Landing Page 2</h5>
+                        <p class="card-text light-300 text-dark">
+                            Instagram Ads adalah sebuah platform iklan di media sosial yang memungkinkan Anda untuk membuat iklan di feed dan stories Instagram.
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                            Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_profile_landingpage">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Landing Page 3</h5>
+                        <p class="card-text light-300 text-dark">
+                            Google Ads adalah program periklanan online Google untuk menjangkau orang-orang tepat sesuai dengan bidang bisnis Anda.
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                              Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_institusi_perusahaan">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Perusahaan</h5>
+                        <p class="card-text light-300 text-dark">
+                            Google Ads adalah program periklanan online Google untuk menjangkau orang-orang tepat sesuai dengan bidang bisnis Anda.
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                              Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_toko_online">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Toko Online</h5>
+                        <p class="card-text light-300 text-dark">
+                            Google Ads adalah program periklanan online Google untuk menjangkau orang-orang tepat sesuai dengan bidang bisnis Anda.
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                              Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_toko_online">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Toko Online</h5>
+                        <p class="card-text light-300 text-dark">
+                            Google Ads adalah program periklanan online Google untuk menjangkau orang-orang tepat sesuai dengan bidang bisnis Anda.
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                              Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_booking_service">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Booking Service</h5>
+                        <p class="card-text light-300 text-dark">
+                            Google Ads adalah program periklanan online Google untuk menjangkau orang-orang tepat sesuai dengan bidang bisnis Anda.
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                              Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_custom">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Paket 1</h5>
+                        <p class="card-text light-300 text-dark">
+                            Google Ads adalah program periklanan online Google untuk menjangkau orang-orang tepat sesuai dengan bidang bisnis Anda.
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                              Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_custom">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Paket 2</h5>
+                        <p class="card-text light-300 text-dark">
+                            Google Ads adalah program periklanan online Google untuk menjangkau orang-orang tepat sesuai dengan bidang bisnis Anda.
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                              Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none ngeline project ngeline_all ngeline_custom">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="../../assets/img/services-09.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title light-300 fw-bold text-dark">Paket 3</h5>
+                        <p class="card-text light-300 text-dark">
+                            Google Ads adalah program periklanan online Google untuk menjangkau orang-orang tepat sesuai dengan bidang bisnis Anda.
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                              Lihat Paket <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <!-- end portofolio -->
+        </div>
         
     </section>
     <!-- End Our Work -->
