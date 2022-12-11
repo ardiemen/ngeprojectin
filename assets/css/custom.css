@@ -4,3 +4,10 @@ Custom CSS for TemplateMo 561 Purple Buzz
 https://templatemo.com/tm-561-purple-buzz
 
 */
+
+.card-img-custom {
+    max-width: 50%;
+    display: flex;
+    align-self: center;
+    margin-top: 2em;
+}
