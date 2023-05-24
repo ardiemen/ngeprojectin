@@ -52,7 +52,7 @@ p, a {font-weight: 400;}
 #main_nav .nav-item .nav-link:hover {color: #fff;}
 /* Home */
 #index_banner {
-  background-image: url('./../img/bgbg1.png');
+  background-image: url('./../img/bgbg2.png');
   background-position: center center; background-size: cover;
   height: 150%;
   min-height: 60vh;
