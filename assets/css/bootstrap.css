@@ -9543,6 +9543,10 @@ fieldset:disabled .btn {
   color: #fff !important;
 }
 
+.text-abuabu {
+  color: #a9a4bc;
+}
+
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .text-body {
   color: #212529 !important;

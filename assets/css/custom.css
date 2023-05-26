@@ -61,3 +61,23 @@ https://templatemo.com/tm-561-purple-buzz
 .strongs{
   color: #ff8c00;
 }
+/* button atas */
+.button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+.banner-button {
+  display: inline-block;
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-button {
+      font-size: 16px;
+      padding: 6px 10px;
+      display: block;
+      margin-bottom: 10px;
+  }
+}

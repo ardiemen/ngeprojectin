@@ -411,6 +411,9 @@ Portfolio
 }
 
 .btn-floating.whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   bottom: 40px;
   right: 40px;
   background-color: #34af23;
