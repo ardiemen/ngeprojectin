@@ -102,10 +102,12 @@ https://templatemo.com/tm-561-purple-buzz
   display: block;
   float: left;
   position: relative;
-  width: 150px;
-  height: 90px;
+  /* width: 150px;
+  height: 90px; */
   line-height: 100px;
   text-align: center;
+  max-width: 100%;
+  height: auto;
 }
 
 .showcase .slider .item img {
